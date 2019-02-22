@@ -1,0 +1,245 @@
+.nav {
+    width: 100%;
+    height: 78px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+.banner{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    margin-top: 78px;
+}
+.title{
+    width: 200px;
+    height: 120px;
+    margin: auto;
+}
+.title p{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+}
+.section{
+    width: 100%;
+    height: 680px;
+    padding: 30px 0;
+    background: #F1F1F1;
+}
+.container{
+    width: 1170px;
+    float: top;
+    margin: auto;
+}
+.col-md8{
+    width: 720px;
+    float: left;
+    padding: 30px;
+    background: white;
+}
+.list-group{
+    width: 720px;
+    margin-bottom: 20px;
+}
+.list-group-item{
+    width: 718px;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #F1F1F1;
+}
+.media-left{
+    float: left;
+    font-family: iconfont;
+    font-size: 36px;
+    color: #a3afb7;
+}
+.user{
+    margin-right: 10px;
+}
+.media-body{
+    float: left;
+    width: 671px;
+    overflow: hidden;
+}
+.media-body h4{
+    display: block;
+    width: 671px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 14px;
+    color: #37474f;
+    float: left;
+}
+h4 small{
+    display: block;
+    width: 124px;
+    height: 14px;
+    padding-left: 20px;
+    float: right;
+    font-weight: 400;
+    line-height: 1;
+    color: #a3afb7;
+    font-size: 1px;
+}
+.media-body p{
+    float: left;
+    width: 671px;
+    height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-top: 0;
+    color: #cccccc;
+}
+.media-bot{
+    width: 630px;
+    padding: 20px;
+    float: left;
+    border: 1px solid #e4eaec;
+    background-color: #f3f7f9;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.col-md4{
+    width: 300px;
+    float: left;
+    padding: 30px;
+    margin-left: 30px;
+    background: white;
+}
+.form-control{
+    display: block;
+    width: 268px;
+    padding: 6px 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    float: left;
+}
+.input-group-addon{
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #76838f;
+    text-align: center;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    float: right;
+}
+.form-group .btn-block{
+    width: 300px;
+    height: 35px;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 14px;
+}
+.linksnav{
+    width: 100%;
+    height: 20px;
+    background: white;
+    float: left;
+    margin-top: 30px;
+}
+.bottom{
+    width: 100%;
+    height:171px;
+    background: #F1F1F1;
+}
+.login{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+
+}
+.login img{
+    width: 30px;
+    height: 26px;
+    margin-top: 10px;
+}
+.liulan{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.liulan .liuZong{
+    width: 390px;
+    height: 20px;
+    margin: 0 auto;
+}
+.liuZong .liuLeft{
+    float: left;
+    width: 140px;
+    height: 20px;
+}
+.liuRight img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.liuZong .liuRight{
+    float: left;
+    width: 230px;
+    height: 20px;
+}
+.liulan p{
+    text-align: center;
+    font-size: 14px;
+    color: #16b0bc;
+}
+.liulan p:hover{
+    text-decoration: underline;
+    transition:color linear .5s;
+    color: #2452f5;
+}
+.beizhu p{
+    font-size: 14px;
+    text-align: center;
+    color: #aaaaaa;
+    line-height: 1.5em;
+}

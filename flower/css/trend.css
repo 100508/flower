@@ -1,0 +1,277 @@
+.nav {
+    width: 100%;
+    height: 78px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+.banner{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    margin-top: 78px;
+}
+.title{
+    width: 200px;
+    height: 120px;
+    margin: auto;
+}
+.title p{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+}
+.section{
+    width: 100%;
+    height: 1418px;
+    background: #F1F1F1;
+}
+.new{
+    width: 100%;
+    height: 1238px;
+    border-top: 1px solid #F1F1F1;
+    padding: 30px 0;
+}
+.newList{
+    width: 818px;
+    height: 1088px;
+    background: #ffffff;
+    float: left;
+    padding: 30px;
+    margin-left: 90px;
+}
+.metPage{
+    width: 818px;
+    height: 57px;
+    margin-bottom: 10px;
+}
+.metPage .media1{
+    width: 818px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #F1F1F1;
+    margin-bottom: 30px;
+    float: left;
+}
+.mediaLeft{
+    width: 160px;
+    height: 160px;
+    padding-right: 20px;
+    float: left;
+}
+.media1 img{
+    width: 160px;
+    height: 160px;
+}
+.mediaBody{
+    float: left;
+    width: 637px;
+    float: left;
+}
+.mediaBody a{
+    font-size: 22px;
+    font-weight: 400;
+}
+.mediaBody a:hover {
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.des{
+    width: 637px;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.info span{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+.info .l1{
+    margin-left: 10px;
+}
+.l1 .wb-eye{
+    font-family: iconfont;
+    font-size: 16px;
+}
+.row{
+    width: 292px;
+    height: 354px;
+    float: left;
+}
+.newBar{
+    width: 222px;
+    height: 314px;
+    padding: 20px;
+    margin-left: 30px;
+    background: white;
+}
+.formGroup{
+    width: 223px;
+    height: 36px;
+    border-radius: 25px;
+    float: left;
+    border-bottom: 1px solid #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+.formGroup input{
+    width: 156px;
+    height: 22px;
+    margin-left: 15px;
+    margin-top: 6px;
+    outline: none;
+    border: none;
+}
+.searchBtn{
+    width: 20px;
+    height: 36px;
+    float: right;
+    padding: 0 10px;
+}
+.searchBtn i{
+    font-family: iconfont;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+}
+.recommend{
+    width: 226px;
+    height: 161px;
+    padding: 20px 0;
+    float: left;
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    margin: 20px 0;
+}
+.recommend p{
+    font-weight: 100;
+    color: #37474f;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.listGroup{
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #F1F1F1;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.listGroup a{
+    font-size: 14px;
+    color: #333333;
+}
+.listGroup a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.recommend a{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.listGroup2{
+    font-size: 16px;
+}
+.listGroup2 a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.linksnav{
+    width: 100%;
+    height: 20px;
+    background: white;
+    float: left;
+    margin-top: 30px;
+}
+.bottom{
+    width: 100%;
+    height:171px;
+    background: #F1F1F1;
+}
+.login{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+
+}
+.login img{
+    width: 30px;
+    height: 26px;
+    margin-top: 10px;
+}
+.liulan{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.liulan .liuZong{
+    width: 390px;
+    height: 20px;
+    margin: 0 auto;
+}
+.liuZong .liuLeft{
+    float: left;
+    width: 140px;
+    height: 20px;
+}
+.liuRight img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.liuZong .liuRight{
+    float: left;
+    width: 230px;
+    height: 20px;
+}
+.liulan p{
+    text-align: center;
+    font-size: 14px;
+    color: #16b0bc;
+}
+.liulan p:hover{
+    text-decoration: underline;
+    transition:color linear .5s;
+    color: #2452f5;
+}
+.beizhu p{
+    font-size: 14px;
+    text-align: center;
+    color: #aaaaaa;
+    line-height: 1.5em;
+}
