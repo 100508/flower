@@ -86,6 +86,10 @@
     position: absolute;
     left: 320px;
     top: 228px;
+    opacity: 0.7;
+}
+.blocks:hover .cen{
+    opacity: 1;
 }
 .time{
     text-align: center;
